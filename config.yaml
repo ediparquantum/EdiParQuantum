@@ -1,0 +1,224 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: Hugo Fresh Theme
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
+  # preloader: false
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/logo.svg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Welcome to Edinburgh & Paris Quantum Virtual Lab
+    # Hero subtitle (optional)
+    subtitle: Researching, applying and advancing quantum computing 
+    # Button text
+    buttontext: Publications
+    # Where the main hero button links to
+    buttonlink: /publications/publications
+    # Hero image (from static/images/___)
+    image: header_image/atom.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    #clientlogos:
+    #- systek
+    #- tribe
+    #- kromo
+    #- infinite
+    #- gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications/publications
+  - title: Research
+    sublinks:
+    - title: Cloud Computing
+      url: /research/cloud_computing
+    - title: Cyber Security
+      url: /research/cyber_security
+    - title: Machine Learning
+      url: /research/machine_learning
+    - title: Verification
+      url: /research/verification
+  - title: People
+    url: /people/people
+  - title: Partnerships
+    url: /partnerships/partnerships
+#  - title: Sign up
+#    url: /
+#    button: true
+  sidebar:
+    # Logo (from /images/logos/___.svg)
+    logo: atom
+    sections:
+    - title: Publications
+      icon: align-justify
+      links:
+      - text: Go to papers
+        url: /publications/publications
+    - title: Research
+      icon: book
+      links:
+      - text: Cloud Computing
+        url: /research/cloud_computing
+      - text: Cyber Security
+        url: /research/cyber_security
+      - text: Machine Learning
+        url: /research/machine_learning
+      - text: Verification
+        url: /research/verification
+    - title: People
+      icon: user
+      links: 
+      - text: Go to people
+        url: /people/people
+    - title: Partnerships
+      icon: users
+      links:
+      - text: Go to partnerships
+        url: /partnerships/partnerships
+    - title: About
+      icon: info
+      links:
+      - text: See our group
+        url: /people/people
+      - text: Privacy policy
+        url: /about/privacy_policy
+  section1:
+    title: About Qantum Computing
+    subtitle: What to expect
+    tiles:
+    - title: Expectation & Discovery
+      text: Quantum Computing and Communication is expected to deliver capabilities that are highly relevant for business. It will also be a platform for new scientific discoveries and progress. 
+    - title: Planning & Early Adopters
+      text: It is key to understand the types of capabilities of QC that will be available on different timescales. Our team has engaged with early adopters in science and business.
+    - title: Awareness & Application
+      text: We ensure that all stakeholders are aware of the needs of research communities. We have developed several novel techniques and methods to carry us on this journey.
+  section2:
+    title: About Edi-Par Quantum
+    subtitle: What to expect
+    features:
+    - title: People
+      text: Meet our team
+      icon: people
+      buttonText: People
+      buttonLink: /people/people
+    - title: Publications
+      text: See our latest results
+      icon: publications
+    - title: Partnerships
+      text: View our collaborations
+      icon: partnerships
+  section4:
+    title: Research
+    subtitle: What are we up to?
+    clients:
+    - name: National Program
+      quote: Both in UK and France as part of the recently announced national quantum technology program, we have an exciting opportunity to build a world-leading position in both the research and delivery of quantum computing and communication to end users. 
+      job: 
+      img: logo_slide.svg
+    - name: Integration
+      quote: Within our team, this effort encompasses the investigation of a broad range of platforms, with an integrated software and hardware research programme.
+      job: 
+      img: 
+    - name: Full Stack
+      quote: The research programme will be designed to deliver across the ‘full stack’ required for a quantum computer as well as a quantum network.
+      job: 
+      img: 
+    - name: Capture Potential
+      quote: To capture the wide-ranging potential of the emerging quantum information processing technology sector.
+      job: 
+      img: 
+  section6:
+      title: Focus
+      subtitle: Where we are currently focused
+      features:
+      - title: Cloud Computing
+        text: 
+        # Icon (from /images/illustrations/icons/___.svg)
+        icon: cloud_computing
+        buttonLink: /research/cloud_computing
+      - title: Cyber Security
+        text: 
+        icon: cyber_security
+        buttonLink: /research/cyber_security
+      - title: Machine Learning
+        text: 
+        icon: machine_learning
+        buttonLink: /research/machine_learning
+      - title: Verification
+        text: 
+        icon: verification
+        buttonLink: /research/verification
+  section3:
+    title: Meet our team !
+    subtitle: Collaboration is central to our group.
+    image: old_group.svg
+    buttonText: People
+    buttonLink: /people/people
+  section5: false
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Research"
+        links:
+        - text: Publications
+          link: /
+        - text: Cloud Computing
+          link: /
+        - text: Cyber Security
+          link: /
+        - text: Machine Learning
+          link: /
+        - text: Verification
+          link: /
+      column2:
+        title: "Collaboration"
+        links:
+        - text: Partnerships
+          link: /
+      column3:
+        title: "About"
+        links:
+        - text: About us
+          link: /
+        - text: Privacy policy
+          link: /
