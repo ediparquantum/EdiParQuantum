@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+
+<meta property="og:title" content="Machine Learning" />
+<meta property="og:description" content="Near Term The search for an application of near-term quantum devices is widespread.
+Quantum Learning Quantum Machine Learning is touted as a potential utilisation of such devices, particularly those which are out of the reach of the simulation capabilities of classical computers.
+Generative Models We explore generative Quantum Learning that cannot, in the worst case, and up to suitable notions of error, be simulated efficiently by a classical device.
+Applications We also develop specific use cases in Finance, Cryptanalysis, and Optimal Compiling for such models and compare the capabilities of quantum versus classical models for such tasks." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://something-fresh.org/research/machine_learning/" /><meta property="article:section" content="research" />
+
+
+
+
+
+<meta name="description" content="Hardcoded description; the author should update :)" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Edi-Par Quantum</title>
+    
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.efc1c490d52db856fb456e6bb960400d7ed753c8dd39584f06a92f2b1bf4d850.css" integrity="sha256-78HEkNUtuFb7RW5ruWBADX7XU8jdOVhPBqkvKxv02FA=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+  </head>
+  <body>
+    
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+    
+
+    
+
+    
+
+
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-start">
+          <a class="navbar-item is-hidden-mobile">
+            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+              <svg width="1000px" height="1000px">
+                <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                <path class="path2" d="M 300 500 L 700 500"></path>
+                <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+              </svg>
+              <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+            </div>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a href="/" class="navbar-item is-secondary">
+            Home
+          </a>
+          <a href="/publications/publications" class="navbar-item is-secondary">
+            Publications
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Research
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/research/cloud_computing" class="navbar-item">
+                Cloud Computing
+              </a>
+              <a href="/research/cyber_security" class="navbar-item">
+                Cyber Security
+              </a>
+              <a href="/research/machine_learning" class="navbar-item">
+                Machine Learning
+              </a>
+              <a href="/research/verification" class="navbar-item">
+                Verification
+              </a>
+            </div>
+          </div>
+          <a href="/people/people" class="navbar-item is-secondary">
+            People
+          </a>
+          <a href="/partnerships/partnerships" class="navbar-item is-secondary">
+            Partnerships
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+      <div class="navbar-start">
+        <a class="navbar-item is-hidden-mobile">
+          <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="/" class="navbar-item is-secondary">
+          Home
+        </a>
+        <a href="/publications/publications" class="navbar-item is-secondary">
+          Publications
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Research
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/research/cloud_computing" class="navbar-item">
+              Cloud Computing
+            </a>
+            <a href="/research/cyber_security" class="navbar-item">
+              Cyber Security
+            </a>
+            <a href="/research/machine_learning" class="navbar-item">
+              Machine Learning
+            </a>
+            <a href="/research/verification" class="navbar-item">
+              Verification
+            </a>
+          </div>
+        </div>
+        <a href="/people/people" class="navbar-item is-secondary">
+          People
+        </a>
+        <a href="/partnerships/partnerships" class="navbar-item is-secondary">
+          Partnerships
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">Machine Learning</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h3 id="near-term">Near Term</h3>
+<p>The search for an application of near-term quantum devices is widespread.</p>
+<h3 id="quantum-learning">Quantum Learning</h3>
+<p>Quantum Machine Learning is touted as a potential utilisation of such devices, particularly those which are out of the reach of the simulation capabilities of classical computers.</p>
+<h3 id="generative-models">Generative Models</h3>
+<p>We explore generative Quantum Learning that cannot, in the worst case, and up to suitable notions of error, be simulated efficiently by a classical device.</p>
+<h3 id="applications">Applications</h3>
+<p>We also develop specific use cases in Finance, Cryptanalysis, and Optimal Compiling for such models and compare the capabilities of quantum versus classical models for such tasks.</p>
+<h1 id="machine-learning-papers">Machine Learning Papers</h1>
+<h2 id="quantum-versus-classical-generative-modelling-in-finance">Quantum versus Classical Generative Modelling in Finance</h2>
+<h3 id="abstract">Abstract</h3>
+<p>Finding a concrete use case for quantum computers in the near term is still an open question, with machine learning typically touted as one of the first fields which will be impacted by quantum technologies. In this work, we investigate and compare the capabilities of quantum versus classical models for the task of generative modelling in machine learning. We use a real world financial dataset consisting of correlated currency pairs and compare two models in their ability to learn the resulting distribution - a restricted Boltzmann machine, and a quantum circuit Born machine. We provide extensive numerical results indicating that the simulated Born machine always at least matches the performance of the Boltzmann machine in this task, and demonstrates superior performance as the model scales. We perform experiments on both simulated and physical quantum chips using the Rigetti forest platform, and also are able to partially train the largest instance to date of a quantum circuit Born machine on quantum hardware. Finally, by studying the entanglement capacity of the training Born machines, we find that entanglement typically plays a role in the problem instances which demonstrate an advantage over the Boltzmann machine.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/2008.00691">https://arxiv.org/abs/2008.00691</a></p>
+<h2 id="the-born-supremacy-quantum-advantage-and-training-of-an-ising-born-machine">The Born Supremacy: Quantum Advantage and Training of an Ising Born Machine</h2>
+<h3 id="abstract-1">Abstract</h3>
+<p>The search for an application of near-term quantum devices is widespread. Quantum Machine Learning is touted as a potential utilisation of such devices, particularly those which are out of the reach of the simulation capabilities of classical computers. In this work, we propose a generative Quantum Machine Learning Model, called the Ising Born Machine (IBM), which we show cannot, in the worst case, and up to suitable notions of error, be simulated efficiently by a classical device. We also show this holds for all the circuit families encountered during training. In particular, we explore quantum circuit learning using non-universal circuits derived from Ising Model Hamiltonians, which are implementable on near term quantum devices.
+We propose two novel training methods for the IBM by utilising the Stein Discrepancy and the Sinkhorn Divergence cost functions. We show numerically, both using a simulator within Rigetti&rsquo;s Forest platform and on the Aspen-1 16Q chip, that the cost functions we suggest outperform the more commonly used Maximum Mean Discrepancy (MMD) for differentiable training. We also propose an improvement to the MMD by proposing a novel utilisation of quantum kernels which we demonstrate provides improvements over its classical counterpart. We discuss the potential of these methods to learn &lsquo;hard&rsquo; quantum distributions, a feat which would demonstrate the advantage of quantum over classical computers, and provide the first formal definitions for what we call &lsquo;Quantum Learning Supremacy&rsquo;. Finally, we propose a novel view on the area of quantum circuit compilation by using the IBM to &lsquo;mimic&rsquo; target quantum circuits using classical output data only.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/1904.02214">https://arxiv.org/abs/1904.02214</a></p>
+<h2 id="quantum-physical-unclonable-functions-possibilities-and-impossibilities">Quantum Physical Unclonable Functions: Possibilities and Impossibilities</h2>
+<h3 id="abstract-2">Abstract</h3>
+<p>A Physical Unclonable Function (PUF) is a device with unique behaviour that is hard to clone hence providing a secure fingerprint. A variety of PUF structures and PUF-based applications have been explored theoretically as well as being implemented in practical settings. Recently, the inherent unclonability of quantum states has been exploited to derive the quantum analogue of PUF as well as new proposals for the implementation of PUF. We present the first comprehensive study of quantum Physical Unclonable Functions (qPUFs) with quantum cryptographic tools. We formally define qPUFs, encapsulating all requirements of classical PUFs as well as introducing a new testability feature inherent to the quantum setting only. We use a quantum game-based framework to define different levels of security for qPUFs: quantum exponential unforgeability, quantum existential unforgeability and quantum selective unforgeability. We introduce a new quantum attack technique based on the universal quantum emulator algorithm of Marvin and Lloyd to prove no qPUF can provide quantum existential unforgeability. On the other hand, we prove that a large family of qPUFs (called unitary PUFs) can provide quantum selective unforgeability which is the desired level of security for most PUF-based applications.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/1910.02126">https://arxiv.org/abs/1910.02126</a></p>
+
+    </div>
+  </div>
+</section>
+
+
+
+    
+    
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="/images/logos/logo_white.svg">
+        </div>
+      </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Research</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Publications
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Cloud Computing
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Cyber Security
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Machine Learning
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Verification
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Collaboration</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Partnerships
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>About</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  About us
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Privacy policy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Posts</h3>
+            </div>
+            <ul class="link-list">
+            </ul>
+          </div>
+        </div>
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3></h3>
+            <nav class="level is-mobile">
+              <div class="level-left">
+              </div>
+            </nav>
+            <a href="https://bulma.io" target="_blank">
+              <img src="/images/logos/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+    
+<div class="sidebar">
+  <div class="sidebar-header">
+    <img src="/images/logos/atom.svg">
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      
+      <li>
+        <a href="http://something-fresh.org/research/cloud_computing/">
+          Cloud Computing
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/cyber_security/">
+          Cyber Security
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/machine_learning/">
+          Machine Learning
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/verification/">
+          Verification
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </body>
+</html>

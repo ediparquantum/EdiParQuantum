@@ -1,6 +1,8 @@
 ---
 title: "Partnerships"
-draft: false
+sidebar: true # or false to display the sidebar
+sidebarlogo: atom # From (static/images/logo/)
+include_footer: true # or false to display the footer
 ---
 
 # OUR MEMBERS ARE JOINTLY AFFILIATED TO THE FOLLOWING GROUPS

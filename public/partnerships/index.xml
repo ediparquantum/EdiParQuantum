@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partnerships on Edi-Par Quantum</title>
+    <link>http://something-fresh.org/partnerships/</link>
+    <description>Recent content in Partnerships on Edi-Par Quantum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://something-fresh.org/partnerships/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Partnerships</title>
+      <link>http://something-fresh.org/partnerships/partnerships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://something-fresh.org/partnerships/partnerships/</guid>
+      <description>OUR MEMBERS ARE JOINTLY AFFILIATED TO THE FOLLOWING GROUPS University of Edinburgh Quantum Informatics Old College, South Bridge, Edinburgh EH8 9YL, Scotland
+Sorbonne Universite Quantum Information 15-21 rue de l&amp;rsquo;École de Médecine 75006, Paris, France
+WE ARE ALSO PARTNERS IN THE FOLLOWING CONSORTIUMS Innovate UK Industrial Strategy Challenge Fund Autonomous quantum technologies
+Innovate UK Industrial Strategy Challenge Fund Quantum Computing Platform for NISQ Era Commercial Application
+Innovate UK Industrial Strategy Challenge Fund Open Air Quantum Key Distribution</description>
+    </item>
+    
+  </channel>
+</rss>

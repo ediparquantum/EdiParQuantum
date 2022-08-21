@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+
+<meta property="og:title" content="Cloud Computing" />
+<meta property="og:description" content="Increased computation Secure delegated quantum computing allows a computationally weak client to outsource an arbitrary quantum computation to an untrusted quantum server in a privacy-preserving manner.
+Security Schemes We have developed several schemes using quantum communications between client and server to achieve information-theoretic security.
+Post quantum computation Recently we have also shown how the same functionality with a purely classical client can be also obtained but reducing the security to being post-quantum computationally secure." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://something-fresh.org/research/cloud_computing/" /><meta property="article:section" content="research" />
+
+
+
+
+
+<meta name="description" content="Hardcoded description; the author should update :)" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Edi-Par Quantum</title>
+    
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.efc1c490d52db856fb456e6bb960400d7ed753c8dd39584f06a92f2b1bf4d850.css" integrity="sha256-78HEkNUtuFb7RW5ruWBADX7XU8jdOVhPBqkvKxv02FA=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+  </head>
+  <body>
+    
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+    
+
+    
+
+    
+
+
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-start">
+          <a class="navbar-item is-hidden-mobile">
+            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+              <svg width="1000px" height="1000px">
+                <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                <path class="path2" d="M 300 500 L 700 500"></path>
+                <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+              </svg>
+              <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+            </div>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a href="/" class="navbar-item is-secondary">
+            Home
+          </a>
+          <a href="/publications/publications" class="navbar-item is-secondary">
+            Publications
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Research
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/research/cloud_computing" class="navbar-item">
+                Cloud Computing
+              </a>
+              <a href="/research/cyber_security" class="navbar-item">
+                Cyber Security
+              </a>
+              <a href="/research/machine_learning" class="navbar-item">
+                Machine Learning
+              </a>
+              <a href="/research/verification" class="navbar-item">
+                Verification
+              </a>
+            </div>
+          </div>
+          <a href="/people/people" class="navbar-item is-secondary">
+            People
+          </a>
+          <a href="/partnerships/partnerships" class="navbar-item is-secondary">
+            Partnerships
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+      <div class="navbar-start">
+        <a class="navbar-item is-hidden-mobile">
+          <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="/" class="navbar-item is-secondary">
+          Home
+        </a>
+        <a href="/publications/publications" class="navbar-item is-secondary">
+          Publications
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Research
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/research/cloud_computing" class="navbar-item">
+              Cloud Computing
+            </a>
+            <a href="/research/cyber_security" class="navbar-item">
+              Cyber Security
+            </a>
+            <a href="/research/machine_learning" class="navbar-item">
+              Machine Learning
+            </a>
+            <a href="/research/verification" class="navbar-item">
+              Verification
+            </a>
+          </div>
+        </div>
+        <a href="/people/people" class="navbar-item is-secondary">
+          People
+        </a>
+        <a href="/partnerships/partnerships" class="navbar-item is-secondary">
+          Partnerships
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">Cloud Computing</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h3 id="increased-computation">Increased computation</h3>
+<p>Secure delegated quantum computing allows a computationally weak client to outsource an arbitrary quantum computation to an untrusted quantum server in a privacy-preserving manner.</p>
+<h3 id="security-schemes">Security Schemes</h3>
+<p>We have developed several schemes using quantum communications between client and server to achieve information-theoretic security.</p>
+<h3 id="post-quantum-computation">Post quantum computation</h3>
+<p>Recently we have also shown how the same functionality with a purely classical client can be also obtained but reducing the security to being post-quantum computationally secure.</p>
+<h3 id="protocol-complexity">Protocol Complexity</h3>
+<p>The assumptions are necessary as we provided strong evidence that such protocol could not provide informational-theoretic security without violating some widely accepted complexity assumptions.</p>
+<h3 id="share-the-big-news">Share the big news</h3>
+<p>Have you opened a new location, redesigned your shop, or added a new product or service? Don&rsquo;t keep it to yourself, let folks know.</p>
+<h3 id="quantum-channels">Quantum Channels</h3>
+<p>Our works revealed a previously unknown feature of quantum channel usage compared to a classical one in the setting of quantum cloud computing. We are developing other client-server-based protocols for distributed quantum computing.</p>
+<h1 id="cloud-computing-papers">Cloud Computing Papers</h1>
+<h3 id="security-limitations-of-classical-client-delegated-quantum-computing">Security Limitations of Classical-Client Delegated Quantum Computing</h3>
+<h4 id="abstract">Abstract</h4>
+<p>Secure delegated quantum computing allows a computationally weak client to outsource an arbitrary quantum computation to an untrusted quantum server in a privacy-preserving manner. One of the promising candidates to achieve classical delegation of quantum computation is classical-client remote state preparation (RSPCC), where a client remotely prepares a quantum state using a classical channel. However, the privacy loss incurred by employing RSPCC as a sub-module is unclear.
+In this work, we investigate this question using the Constructive Cryptography framework by Maurer and Renner (ICS'11). We first identify the goal of RSPCC as the construction of ideal RSP resources from classical channels and then reveal the security limitations of using RSPCC. First, we uncover a fundamental relationship between constructing ideal RSP resources (from classical channels) and the task of cloning quantum states. Any classically constructed ideal RSP resource must leak to the server the full classical description (possibly in an encoded form) of the generated quantum state, even if we target computational security only. As a consequence, we find that the realization of common RSP resources, without weakening their guarantees drastically, is impossible due to the no-cloning theorem. Second, the above result does not rule out that a specific RSPCC protocol can replace the quantum channel at least in some contexts, such as the Universal Blind Quantum Computing (UBQC) protocol of Broadbent et al. (FOCS &lsquo;09). However, we show that the resulting UBQC protocol cannot maintain its proven composable security as soon as RSPCC is used as a subroutine. Third, we show that replacing the quantum channel of the above UBQC protocol by the RSPCC protocol QFactory of Cojocaru et al. (Asiacrypt &lsquo;19), preserves the weaker, game-based, security of UBQC.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/2007.01668">https://arxiv.org/abs/2007.01668</a></p>
+<h3 id="qfactory-classically-instructed-remote-secret-qubits-preparation">QFactory: classically-instructed remote secret qubits preparation</h3>
+<h4 id="abstract-1">Abstract</h4>
+<p>The functionality of classically-instructed remotely prepared random secret qubits was introduced in (Cojocaru et al 2018) as a way to enable classical parties to participate in secure quantum computation and communications protocols. The idea is that a classical party (client) instructs a quantum party (server) to generate a qubit to the server&rsquo;s side that is random, unknown to the server but known to the client. Such task is only possible under computational assumptions. In this contribution we define a simpler (basic) primitive consisting of only BB84 states, and give a protocol that realizes this primitive and that is secure against the strongest possible adversary (an arbitrarily deviating malicious server). The specific functions used, were constructed based on known trapdoor one-way functions, resulting to the security of our basic primitive being reduced to the hardness of the Learning With Errors problem. We then give a number of extensions, building on this basic module: extension to larger set of states (that includes non-Clifford states); proper consideration of the abort case; and verifiablity on the module level. The latter is based on &ldquo;blind self-testing&rdquo;, a notion we introduced, proved in a limited setting and conjectured its validity for the most general case.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/1904.06303">https://arxiv.org/abs/1904.06303</a></p>
+<h3 id="complexity-theoretic-limitations-on-blind-delegated-quantum-computation">Complexity-theoretic limitations on blind delegated quantum computation</h3>
+<h4 id="abtract">Abtract</h4>
+<p>Blind delegation protocols allow a client to delegate a computation to a server so that the server learns nothing about the input to the computation apart from its size. For the specific case of quantum computation we know that blind delegation protocols can achieve information-theoretic security. In this paper we prove, provided certain complexity-theoretic conjectures are true, that the power of information-theoretically secure blind delegation protocols for quantum computation (ITS-BQC protocols) is in a number of ways constrained. In the first part of our paper we provide some indication that ITS-BQC protocols for delegating BQP computations in which the client and the server interact only classically are unlikely to exist. We first show that having such a protocol with O(nd) bits of classical communication implies that BQP⊂MA/O(nd). We conjecture that this containment is unlikely by providing an oracle relative to which BQP⊄MA/O(nd). We then show that if an ITS-BQC protocol exists with polynomial classical communication and which allows the client to delegate quantum sampling problems, then there exist non-uniform circuits of size 2n−Ω(n/log(n)), making polynomially-sized queries to an NPNP oracle, for computing the permanent of an n×n matrix. The second part of our paper concerns ITS-BQC protocols in which the client and the server engage in one round of quantum communication and then exchange polynomially many classical messages. First, we provide a complexity-theoretic upper bound on the types of functions that could be delegated in such a protocol, namely QCMA/qpoly∩coQCMA/qpoly. Then, we show that having such a protocol for delegating NP-hard functions implies coNPNPNP⊆NPNPPromiseQMA.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/1704.08482">https://arxiv.org/abs/1704.08482</a></p>
+<h3 id="the-quantum-cut-and-choose-technique-and-quantum-two-party-computation">The Quantum Cut-and-Choose Technique and Quantum Two-Party Computation</h3>
+<h4 id="abstract-2">Abstract</h4>
+<p>The application and analysis of the Cut-and-Choose technique in protocols secure against quantum adversaries is not a straightforward transposition of the classical case, among other reasons due to the difficulty to use rewinding in the quantum realm. We introduce a Quantum Computation Cut-and-Choose (QC-CC) technique which is a generalisation of the classical Cut-and-Choose in order to build quantum protocols secure against quantum covert adversaries. Such adversaries can deviate arbitrarily provided that their deviation is not detected. As an application of the QC-CC we give a protocol for securely performing two-party quantum computation with classical input/output. As basis we use secure delegated quantum computing (Broadbent et al 2009), and in particular the garbled quantum computation of (Kashefi et al 2016) that is secure against only a weak specious adversaries, defined in (Dupuis et al 2010). A unique property of these protocols is the separation between classical and quantum communications and the asymmetry between client and server, which enables us to sidestep the quantum rewinding issues. This opens the prospect of using the QC-CC to other quantum protocols with this separation. In our proof of security we adapt and use (at different parts) two quantum rewinding techniques, namely Watrous&rsquo; oblivious q-rewinding (Watrous 2009) and Unruh&rsquo;s special q-rewinding (Unruh 2012). Our protocol achieves the same functionality as in previous works (e.g. Dupuis et al 2012), however using the QC-CC technique on the protocol from (Kashefi et al 2016) leads to the following key improvements: (i) only one-way offline quantum communication is necessary , (ii) only one party (server) needs to have involved quantum technological abilities, (iii) only minimal extra cryptographic primitives are required, namely one oblivious transfer for each input bit and quantum-safe commitments.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/1703.03754">https://arxiv.org/abs/1703.03754</a></p>
+
+    </div>
+  </div>
+</section>
+
+
+
+    
+    
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="/images/logos/logo_white.svg">
+        </div>
+      </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Research</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Publications
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Cloud Computing
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Cyber Security
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Machine Learning
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Verification
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Collaboration</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Partnerships
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>About</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  About us
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Privacy policy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Posts</h3>
+            </div>
+            <ul class="link-list">
+            </ul>
+          </div>
+        </div>
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3></h3>
+            <nav class="level is-mobile">
+              <div class="level-left">
+              </div>
+            </nav>
+            <a href="https://bulma.io" target="_blank">
+              <img src="/images/logos/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+    
+<div class="sidebar">
+  <div class="sidebar-header">
+    <img src="/images/logos/atom.svg">
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      
+      <li>
+        <a href="http://something-fresh.org/research/cloud_computing/">
+          Cloud Computing
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/cyber_security/">
+          Cyber Security
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/machine_learning/">
+          Machine Learning
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/verification/">
+          Verification
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+
+<meta property="og:title" content="Verification" />
+<meta property="og:description" content="Solution and Verification Quantum computers promise to efficiently solve not only problems believed to be intractable for classical computers, but also problems for which verifying the solution is also considered intractable.
+How This raises the question of how one can check whether quantum computers are indeed producing correct results.
+Significant Challenge This task, known as quantum verification, has been highlighted as a significant challenge on the road to scalable quantum computing technology." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://something-fresh.org/research/verification/" /><meta property="article:section" content="research" />
+
+
+
+
+
+<meta name="description" content="Hardcoded description; the author should update :)" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Edi-Par Quantum</title>
+    
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.efc1c490d52db856fb456e6bb960400d7ed753c8dd39584f06a92f2b1bf4d850.css" integrity="sha256-78HEkNUtuFb7RW5ruWBADX7XU8jdOVhPBqkvKxv02FA=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+  </head>
+  <body>
+    
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+    
+
+    
+
+    
+
+
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-start">
+          <a class="navbar-item is-hidden-mobile">
+            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+              <svg width="1000px" height="1000px">
+                <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                <path class="path2" d="M 300 500 L 700 500"></path>
+                <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+              </svg>
+              <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+            </div>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a href="/" class="navbar-item is-secondary">
+            Home
+          </a>
+          <a href="/publications/publications" class="navbar-item is-secondary">
+            Publications
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Research
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/research/cloud_computing" class="navbar-item">
+                Cloud Computing
+              </a>
+              <a href="/research/cyber_security" class="navbar-item">
+                Cyber Security
+              </a>
+              <a href="/research/machine_learning" class="navbar-item">
+                Machine Learning
+              </a>
+              <a href="/research/verification" class="navbar-item">
+                Verification
+              </a>
+            </div>
+          </div>
+          <a href="/people/people" class="navbar-item is-secondary">
+            People
+          </a>
+          <a href="/partnerships/partnerships" class="navbar-item is-secondary">
+            Partnerships
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+      <div class="navbar-start">
+        <a class="navbar-item is-hidden-mobile">
+          <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="/" class="navbar-item is-secondary">
+          Home
+        </a>
+        <a href="/publications/publications" class="navbar-item is-secondary">
+          Publications
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Research
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/research/cloud_computing" class="navbar-item">
+              Cloud Computing
+            </a>
+            <a href="/research/cyber_security" class="navbar-item">
+              Cyber Security
+            </a>
+            <a href="/research/machine_learning" class="navbar-item">
+              Machine Learning
+            </a>
+            <a href="/research/verification" class="navbar-item">
+              Verification
+            </a>
+          </div>
+        </div>
+        <a href="/people/people" class="navbar-item is-secondary">
+          People
+        </a>
+        <a href="/partnerships/partnerships" class="navbar-item is-secondary">
+          Partnerships
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">Verification</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h3 id="solution-and-verification">Solution and Verification</h3>
+<p>Quantum computers promise to efficiently solve not only problems believed to be intractable for classical computers, but also problems for which verifying the solution is also considered intractable.</p>
+<h3 id="how">How</h3>
+<p>This raises the question of how one can check whether quantum computers are indeed producing correct results.</p>
+<h3 id="significant-challenge">Significant Challenge</h3>
+<p>This task, known as quantum verification, has been highlighted as a significant challenge on the road to scalable quantum computing technology.</p>
+<h3 id="development">Development</h3>
+<p>Over the last decade we have developed a large class of various techniques to address the issue of trust and benchmarking for quantum devices, adaptation and optimisation for specific platforms and applications.</p>
+<h1 id="verifcation-papers">Verifcation Papers</h1>
+<h2 id="efficient-verification-of-boson-sampling">Efficient verification of Boson Sampling</h2>
+<h3 id="abstract">Abstract</h3>
+<p>The demonstration of quantum speedup, also known as quantum computational supremacy, that is the ability of quantum computers to outperform dramatically their classical counterparts, is an important milestone in the field of quantum computing. While quantum speedup experiments are gradually escaping the regime of classical simulation, they still lack efficient verification protocols and rely on partial validation. Here we derive an efficient protocol for verifying with single-mode Gaussian measurements the output states of a large class of continuous-variable quantum circuits demonstrating quantum speedup, including Boson Sampling experiments, thus enabling a convincing demonstration of quantum speedup with photonic computing. Beyond the quantum speedup milestone, our results also enable the efficient and reliable certification of a large class of intractable continuous-variable multimode quantum states.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/2006.03520">https://arxiv.org/abs/2006.03520</a></p>
+<h2 id="randomized-benchmarking-in-the-analogue-setting">Randomized Benchmarking in the Analogue Setting</h2>
+<h3 id="abstract-1">Abstract</h3>
+<p>Current development in programmable analogue quantum simulators (AQS), whose physical implementation can be realised in the near-term compared to those of large-scale digital quantum computers, highlights the need for robust testing techniques in analogue platforms. Methods to properly certify or benchmark AQS should be efficiently scalable, and also provide a way to deal with errors from state preparation and measurement (SPAM). Up to now, attempts to address this combination of requirements have generally relied on model-specific properties. We put forward a new approach, applying a well-known digital noise characterisation technique called randomized benchmarking (RB) to the analogue setting. RB is a scalable experimental technique that provides a measure of the average error-rate of a gate-set on a quantum hardware, incorporating SPAM errors. We present the original form of digital RB, the necessary alterations to translate it to the analogue setting and introduce the analogue randomized benchmarking protocol (ARB). In ARB we measure the average error-rate per time evolution of a family of Hamiltonians and we illustrate this protocol with two case-studies of analogue models; classically simulating the system by incorporating several physically motivated noise scenarios. We find that for the noise models tested, the data fit with the theoretical predictions and we gain values for the average error rate for differing unitary sets. We compare our protocol with other relevant RB methods, where both advantages (physically motivated unitaries) and disadvantages (difficulty in reversing the time-evolution) are discussed.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/1909.01295">https://arxiv.org/abs/1909.01295</a></p>
+<h2 id="quantum-certification-and-benchmarking">Quantum certification and benchmarking</h2>
+<h3 id="abstract-2">Abstract</h3>
+<p>Concomitant with the rapid development of quantum technologies, challenging demands arise concerning the certification and characterization of devices. The promises of the field can only be achieved if stringent levels of precision of components can be reached and their functioning guaranteed. This review provides a brief overview of the known characterization methods of certification, benchmarking, and tomographic recovery of quantum states and processes, as well as their applications in quantum computing, simulation, and communication.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/1910.06343">https://arxiv.org/abs/1910.06343</a></p>
+<h2 id="verification-of-quantum-computation-an-overview-of-existing-approaches">Verification of quantum computation: An overview of existing approaches</h2>
+<h3 id="abstract-3">Abstract</h3>
+<p>Quantum computers promise to efficiently solve not only problems believed to be intractable for classical computers, but also problems for which verifying the solution is also considered intractable. This raises the question of how one can check whether quantum computers are indeed producing correct results. This task, known as quantum verification, has been highlighted as a significant challenge on the road to scalable quantum computing technology. We review the most significant approaches to quantum verification and compare them in terms of structure, complexity and required resources. We also comment on the use of cryptographic techniques which, for many of the presented protocols, has proven extremely useful in performing verification. Finally, we discuss issues related to fault tolerance, experimental implementations and the outlook for future protocols.</p>
+<p><strong>arXiv:</strong>  <a href="https://arxiv.org/abs/1709.06984">https://arxiv.org/abs/1709.06984</a></p>
+
+    </div>
+  </div>
+</section>
+
+
+
+    
+    
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="/images/logos/logo_white.svg">
+        </div>
+      </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Research</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Publications
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Cloud Computing
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Cyber Security
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Machine Learning
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Verification
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Collaboration</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Partnerships
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>About</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  About us
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Privacy policy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Posts</h3>
+            </div>
+            <ul class="link-list">
+            </ul>
+          </div>
+        </div>
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3></h3>
+            <nav class="level is-mobile">
+              <div class="level-left">
+              </div>
+            </nav>
+            <a href="https://bulma.io" target="_blank">
+              <img src="/images/logos/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+    
+<div class="sidebar">
+  <div class="sidebar-header">
+    <img src="/images/logos/atom.svg">
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      
+      <li>
+        <a href="http://something-fresh.org/research/cloud_computing/">
+          Cloud Computing
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/cyber_security/">
+          Cyber Security
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/machine_learning/">
+          Machine Learning
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/verification/">
+          Verification
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </body>
+</html>

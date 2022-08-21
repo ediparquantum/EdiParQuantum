@@ -1,90 +1,106 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Universal</title>
-    <link>https://devcows.github.io/hugo-universal-theme/</link>
-    <description>Recent content on Universal</description>
+    <title>Edi-Par Quantum</title>
+    <link>http://something-fresh.org/</link>
+    <description>Recent content on Edi-Par Quantum</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://devcows.github.io/hugo-universal-theme/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://something-fresh.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Categories Post</title>
-      <link>https://devcows.github.io/hugo-universal-theme/blog/2021/08/01/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://devcows.github.io/hugo-universal-theme/blog/2021/08/01/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;] Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
-      <title>Linked post</title>
-      <link>https://devcows.github.io/hugo-universal-theme/blog/2015/10/02/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://devcows.github.io/hugo-universal-theme/blog/2015/10/02/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Go is for lovers</title>
-      <link>https://devcows.github.io/hugo-universal-theme/blog/2015/09/17/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
-      
-      <guid>https://devcows.github.io/hugo-universal-theme/blog/2015/09/17/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>https://devcows.github.io/hugo-universal-theme/blog/2015/08/03/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://devcows.github.io/hugo-universal-theme/blog/2015/08/03/hugo-is-for-lovers/</guid>
-      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://devcows.github.io/hugo-universal-theme/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>https://devcows.github.io/hugo-universal-theme/blog/2015/06/24/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://devcows.github.io/hugo-universal-theme/blog/2015/06/24/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://devcows.github.io/hugo-universal-theme/contact/</link>
+      <title></title>
+      <link>http://something-fresh.org/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://devcows.github.io/hugo-universal-theme/contact/</guid>
-      <description>We are here to help you Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
-Please feel free to contact us, our customer service center is working for you 24/7.</description>
+      <guid>http://something-fresh.org/about/about/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>FAQ</title>
-      <link>https://devcows.github.io/hugo-universal-theme/faq/</link>
+      <title>Cloud Computing</title>
+      <link>http://something-fresh.org/research/cloud_computing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://devcows.github.io/hugo-universal-theme/faq/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+      <guid>http://something-fresh.org/research/cloud_computing/</guid>
+      <description>Increased computation Secure delegated quantum computing allows a computationally weak client to outsource an arbitrary quantum computation to an untrusted quantum server in a privacy-preserving manner.
+Security Schemes We have developed several schemes using quantum communications between client and server to achieve information-theoretic security.
+Post quantum computation Recently we have also shown how the same functionality with a purely classical client can be also obtained but reducing the security to being post-quantum computationally secure.</description>
     </item>
     
     <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://devcows.github.io/hugo-universal-theme/blog/1/01/01/migrate-from-jekyll/</link>
+      <title>Cyber Security</title>
+      <link>http://something-fresh.org/research/cyber_security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://devcows.github.io/hugo-universal-theme/blog/1/01/01/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>http://something-fresh.org/research/cyber_security/</guid>
+      <description>Future Communication Future information and communication networks will certainly consist of both classical and quantum devices, some of which are expected to be dishonest, with various degrees of functionality, ranging from simple routers to servers executing quantum algorithms.
+Foreseeable Futures In a hybrid quantum and classical approach, we consider three plausible scenarios, from the closest to the furthest foreseeable future, and try to study them thoroughly by elaborating adversarial models and designing or analysing concrete protocols with formal security proofs, in order to get ready as soon as one of these scenarios becomes the new reality.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://something-fresh.org/research/machine_learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://something-fresh.org/research/machine_learning/</guid>
+      <description>Near Term The search for an application of near-term quantum devices is widespread.
+Quantum Learning Quantum Machine Learning is touted as a potential utilisation of such devices, particularly those which are out of the reach of the simulation capabilities of classical computers.
+Generative Models We explore generative Quantum Learning that cannot, in the worst case, and up to suitable notions of error, be simulated efficiently by a classical device.
+Applications We also develop specific use cases in Finance, Cryptanalysis, and Optimal Compiling for such models and compare the capabilities of quantum versus classical models for such tasks.</description>
+    </item>
+    
+    <item>
+      <title>Partnerships</title>
+      <link>http://something-fresh.org/partnerships/partnerships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://something-fresh.org/partnerships/partnerships/</guid>
+      <description>OUR MEMBERS ARE JOINTLY AFFILIATED TO THE FOLLOWING GROUPS University of Edinburgh Quantum Informatics Old College, South Bridge, Edinburgh EH8 9YL, Scotland
+Sorbonne Universite Quantum Information 15-21 rue de l&amp;rsquo;École de Médecine 75006, Paris, France
+WE ARE ALSO PARTNERS IN THE FOLLOWING CONSORTIUMS Innovate UK Industrial Strategy Challenge Fund Autonomous quantum technologies
+Innovate UK Industrial Strategy Challenge Fund Quantum Computing Platform for NISQ Era Commercial Application
+Innovate UK Industrial Strategy Challenge Fund Open Air Quantum Key Distribution</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://something-fresh.org/people/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://something-fresh.org/people/people/</guid>
+      <description>Director Prof. Elham Kashefi Directrice de recherche au CNRS, LIP6 Sorbonne Universite
+Personal Chair in Quantum Computing, School of Informatics University of Edinburgh
+Co-founder VeriQloud Ltd
+Group Leader
+Quantum Cryptography, Hardware Security, Quantum Internet Protocols, Quantum Cloud Computing, Verification of Quantum Technology, Experimental Implementation of Quantum Protocols, Foundation of Quantum Mechanics, Quantum Parallel Computing, New Models for Quantum Computing, Quantum Simulation and Learning POSTDOCTORALS Kaushik Chakraborty Description to come &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://something-fresh.org/about/privacy_policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://something-fresh.org/about/privacy_policy/</guid>
+      <description>Last updated: August 02, 2022 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Free Privacy Policy Generator.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://something-fresh.org/publications/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://something-fresh.org/publications/publications/</guid>
+      <description>A Framework for Verifiable Blind Quantum Computation Abstract With the recent availability of cloud quantum computing services, the question of the verifiability of quantum computations delegated by a weak quantum client to a powerful quantum server is becoming of practical interest. Over the last two decades, Verifiable Blind Quantum Computing (VBQC) has emerged as one of the key approaches to address this challenge. While many protocols have been proposed in recent years, each optimising one aspect of such schemes, a systematic study of required building blocks to achieve collectively the desired properties has been missing.</description>
+    </item>
+    
+    <item>
+      <title>Verification</title>
+      <link>http://something-fresh.org/research/verification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://something-fresh.org/research/verification/</guid>
+      <description>Solution and Verification Quantum computers promise to efficiently solve not only problems believed to be intractable for classical computers, but also problems for which verifying the solution is also considered intractable.
+How This raises the question of how one can check whether quantum computers are indeed producing correct results.
+Significant Challenge This task, known as quantum verification, has been highlighted as a significant challenge on the road to scalable quantum computing technology.</description>
     </item>
     
   </channel>

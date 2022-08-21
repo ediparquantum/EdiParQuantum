@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+
+<meta property="og:title" content="Cyber Security" />
+<meta property="og:description" content="Future Communication Future information and communication networks will certainly consist of both classical and quantum devices, some of which are expected to be dishonest, with various degrees of functionality, ranging from simple routers to servers executing quantum algorithms.
+Foreseeable Futures In a hybrid quantum and classical approach, we consider three plausible scenarios, from the closest to the furthest foreseeable future, and try to study them thoroughly by elaborating adversarial models and designing or analysing concrete protocols with formal security proofs, in order to get ready as soon as one of these scenarios becomes the new reality." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://something-fresh.org/research/cyber_security/" /><meta property="article:section" content="research" />
+
+
+
+
+
+<meta name="description" content="Hardcoded description; the author should update :)" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Edi-Par Quantum</title>
+    
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.efc1c490d52db856fb456e6bb960400d7ed753c8dd39584f06a92f2b1bf4d850.css" integrity="sha256-78HEkNUtuFb7RW5ruWBADX7XU8jdOVhPBqkvKxv02FA=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+  </head>
+  <body>
+    
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+    
+
+    
+
+    
+
+
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-start">
+          <a class="navbar-item is-hidden-mobile">
+            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+              <svg width="1000px" height="1000px">
+                <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                <path class="path2" d="M 300 500 L 700 500"></path>
+                <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+              </svg>
+              <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+            </div>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a href="/" class="navbar-item is-secondary">
+            Home
+          </a>
+          <a href="/publications/publications" class="navbar-item is-secondary">
+            Publications
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Research
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/research/cloud_computing" class="navbar-item">
+                Cloud Computing
+              </a>
+              <a href="/research/cyber_security" class="navbar-item">
+                Cyber Security
+              </a>
+              <a href="/research/machine_learning" class="navbar-item">
+                Machine Learning
+              </a>
+              <a href="/research/verification" class="navbar-item">
+                Verification
+              </a>
+            </div>
+          </div>
+          <a href="/people/people" class="navbar-item is-secondary">
+            People
+          </a>
+          <a href="/partnerships/partnerships" class="navbar-item is-secondary">
+            Partnerships
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+      <div class="navbar-start">
+        <a class="navbar-item is-hidden-mobile">
+          <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="/" class="navbar-item is-secondary">
+          Home
+        </a>
+        <a href="/publications/publications" class="navbar-item is-secondary">
+          Publications
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Research
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/research/cloud_computing" class="navbar-item">
+              Cloud Computing
+            </a>
+            <a href="/research/cyber_security" class="navbar-item">
+              Cyber Security
+            </a>
+            <a href="/research/machine_learning" class="navbar-item">
+              Machine Learning
+            </a>
+            <a href="/research/verification" class="navbar-item">
+              Verification
+            </a>
+          </div>
+        </div>
+        <a href="/people/people" class="navbar-item is-secondary">
+          People
+        </a>
+        <a href="/partnerships/partnerships" class="navbar-item is-secondary">
+          Partnerships
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">Cyber Security</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h3 id="future-communication">Future Communication</h3>
+<p>Future information and communication networks will certainly consist of both classical and quantum devices, some of which are expected to be dishonest, with various degrees of functionality, ranging from simple routers to servers executing quantum algorithms.</p>
+<h3 id="foreseeable-futures">Foreseeable Futures</h3>
+<p>In a hybrid quantum and classical approach, we consider three plausible scenarios, from the closest to the furthest foreseeable future, and try to study them thoroughly by elaborating adversarial models and designing or analysing concrete protocols with formal security proofs, in order to get ready as soon as one of these scenarios becomes the new reality.</p>
+<h3 id="resistant-classical-cryptography">Resistant Classical Cryptography</h3>
+<p>The first scenario considers post-quantum cryptography as in the NIST’s standardization, i.e. classical cryptography resistant to a potential quantum adversary, without giving any quantum resource to the honest people.</p>
+<h3 id="quantum-enhanced-classical-cryptography">Quantum Enhanced Classical Cryptography</h3>
+<p>In the second scenario, we assume that quantum communication is accessible to anybody and we try to take advantage of it in what we call quantum-enhanced classical cryptography.</p>
+<h3 id="completely-quantum">Completely Quantum</h3>
+<p>Finally, in the third scenario, we go one step further, assume a completely quantum world and investigate the consequences on the security of cryptography.</p>
+<h3 id="assessments">Assessments</h3>
+<p>In each case, we need to assess the powers of the attacker and find the most relevant security models.</p>
+<h1 id="cyber-security-papers">Cyber Security Papers</h1>
+<h2 id="certified-randomness-from-steering-using-sequential-measurements">Certified Randomness From Steering Using Sequential Measurements</h2>
+<h3 id="abstract">Abstract</h3>
+<p>The generation of certifiable randomness is one of the most promising applications of quantum technologies. Furthermore, the intrinsic non-locality of quantum correlations allow us to certify randomness in a device-independent way, i.e. one need not make assumptions about the devices used. Due to the work of Curchod et. al., a single entangled two-qubit pure state can be used to produce arbitrary amounts of certified randomness. However, the obtaining of this randomness is experimentally challenging as it requires a large number of measurements, both projective and general. Motivated by these difficulties in the device-independent setting, we instead consider the scenario of one-sided device independence where certain devices are trusted, and others not; a scenario motivated by asymmetric experimental set-ups such as ion-photon networks. We show how certain aspects of previous work can be adapted to this scenario and provide theoretical bounds on the amount of randomness which can be certified. Furthermore, we give a protocol for unbounded randomness certification in this scenario, and provide numerical results demonstrating the protocol in the ideal case. Finally, we numerically test the possibility of implementing this scheme on near-term quantum technologies, by considering the performance of the protocol on several physical platforms.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/2008.00705">https://arxiv.org/abs/2008.00705</a></p>
+<h2 id="dispelling-myths-on-superposition-attacks-formal-security-model-and-attack-analyses">Dispelling Myths on Superposition Attacks: Formal Security Model and Attack Analyses</h2>
+<h3 id="abstract-1">Abstract</h3>
+<p>It is of folkloric belief that the security of classical cryptographic protocols is automatically broken if the Adversary is allowed to perform superposition queries and the honest players forced to perform actions coherently on quantum states. Another widely held intuition is that enforcing measurements on the exchanged messages is enough to protect protocols from these attacks.
+However, the reality is much more complex. Security models dealing with superposition attacks only consider unconditional security. Conversely, security models considering computational security assume that all supposedly classical messages are measured, which forbids by construction the analysis of superposition attacks. Boneh and Zhandry have started to study the quantum computational security for classical primitives in their seminal work at Crypto'13, but only in the single-party setting. To the best of our knowledge, an equivalent model in the multiparty setting is still missing.
+In this work, we propose the first computational security model considering superposition attacks for multiparty protocols. We show that our new security model is satisfiable by proving the security of the well-known One-Time-Pad protocol and give an attack on a variant of the equally reputable Yao Protocol for Secure Two-Party Computations. The post-mortem of this attack reveals the precise points of failure, yielding highly counter-intuitive results: Adding extra classical communication, which is harmless for classical security, can make the protocol become subject to superposition attacks. We use this newly imparted knowledge to construct the first concrete protocol for Secure Two-Party Computation that is resistant to superposition attacks. Our results show that there is no straightforward answer to provide for either the vulnerabilities of classical protocols to superposition attacks or the adapted countermeasures.</p>
+<p><strong>arXiv:</strong>  <a href="https://arxiv.org/abs/2007.00677">https://arxiv.org/abs/2007.00677</a></p>
+<h2 id="client-server-identification-protocols-with-quantum-puf">Client-Server Identification Protocols with Quantum PUF</h2>
+<h3 id="abstract-2">Abstract</h3>
+<p>Recently, major progress has been made towards the realisation of quantum internet to enable a broad range of classically intractable applications. These applications such as delegated quantum computation require running a secure identification protocol between a low-resource and a high-resource party to provide secure communication. In this work, we propose two identification protocols based on the emerging hardware secure solutions, the quantum Physical Unclonable Functions (qPUFs). The first protocol allows a low-resource party to prove its identity to a high-resource party and in the second protocol, it is vice-versa. Unlike existing identification protocols based on Quantum Read-out PUFs which rely on the security against a specific family of attacks, our protocols provide provable exponential security against any Quantum Polynomial-Time adversary with resource-efficient parties. We provide a comprehensive comparison between the two proposed protocols in terms of resources such as quantum memory and computing ability required in both parties as well as the communication overhead between them.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/2006.04522">https://arxiv.org/abs/2006.04522</a></p>
+<h2 id="definitions-and-analysis-of-quantum-e-voting-protocols">Definitions and Analysis of Quantum E-voting Protocols</h2>
+<h3 id="abstract-3">Abstract</h3>
+<p>Recent advances indicate that quantum computers will soon be reality. Motivated by this ever more realistic threat for existing classical cryptographic protocols, researchers have developed several schemes to resist &ldquo;quantum attacks&rdquo;. In particular, for electronic voting, several e-voting schemes relying on properties of quantum mechanics have been proposed. However, each of these proposals comes with a different and often not well-articulated corruption model, has different objectives, and is accompanied by security claims which are never formalized and are at best justified only against specific attacks. To address this, we propose the first formal security definitions for quantum e-voting protocols. With these at hand, we systematize and evaluate the security of previously-proposed quantum e-voting protocols; we examine the claims of these works concerning privacy, correctness and verifiability, and if they are correctly attributed to the proposed protocols. In all non-trivial cases, we identify specific quantum attacks that violate these properties. We argue that the cause of these failures lies in the absence of formal security models and references to the existing cryptographic literature.</p>
+<p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/1810.05083">https://arxiv.org/abs/1810.05083</a></p>
+
+    </div>
+  </div>
+</section>
+
+
+
+    
+    
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="/images/logos/logo_white.svg">
+        </div>
+      </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Research</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Publications
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Cloud Computing
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Cyber Security
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Machine Learning
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Verification
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Collaboration</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Partnerships
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>About</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  About us
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Privacy policy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Posts</h3>
+            </div>
+            <ul class="link-list">
+            </ul>
+          </div>
+        </div>
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3></h3>
+            <nav class="level is-mobile">
+              <div class="level-left">
+              </div>
+            </nav>
+            <a href="https://bulma.io" target="_blank">
+              <img src="/images/logos/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+    
+<div class="sidebar">
+  <div class="sidebar-header">
+    <img src="/images/logos/atom.svg">
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      
+      <li>
+        <a href="http://something-fresh.org/research/cloud_computing/">
+          Cloud Computing
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/cyber_security/">
+          Cyber Security
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/machine_learning/">
+          Machine Learning
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://something-fresh.org/research/verification/">
+          Verification
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </body>
+</html>

@@ -3,8 +3,9 @@
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
 {{- $buttonLink := index $section2 "buttonlink" }}
+{{- $buttonText := index $section2 "buttonText" }}
 <section class="section is-medium" id="section2">
-  <div class="container">
+  <div class="container is-multiline is-mobile">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
         <h1 class="title section-title">{{ $title }}</h1>
@@ -15,9 +16,14 @@
         {{- range $features }}
         <article class="media icon-box">
           <figure class="media-left">
-            <p class="image"><a href={{ $buttonLink }}>
+            <p class="image">
               <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
             <a/></p>
+            <div class="card-action">
+            <p>
+              <a href="{{ .buttonLink }}" class="button btn-align-md accent-btn raised mt-20 r-10">{{ .buttonText }}</a>
+            </p>
+            </div>
             <p class="has-text-centered mt-20">
             </p>
           </figure>
@@ -25,11 +31,9 @@
             <div class="content">
               <p>
                 <span class="icon-box-title">{{ .title }}</span>
-
                 <span class="icon-box-text">{{ .text | markdownify }}</span>
               </p>
             </div>
-            
           </div>
         </article>
         {{- end }}

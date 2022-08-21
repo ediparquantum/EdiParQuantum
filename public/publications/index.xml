@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Edi-Par Quantum</title>
+    <link>http://something-fresh.org/publications/</link>
+    <description>Recent content in Publications on Edi-Par Quantum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://something-fresh.org/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>http://something-fresh.org/publications/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://something-fresh.org/publications/publications/</guid>
+      <description>A Framework for Verifiable Blind Quantum Computation Abstract With the recent availability of cloud quantum computing services, the question of the verifiability of quantum computations delegated by a weak quantum client to a powerful quantum server is becoming of practical interest. Over the last two decades, Verifiable Blind Quantum Computing (VBQC) has emerged as one of the key approaches to address this challenge. While many protocols have been proposed in recent years, each optimising one aspect of such schemes, a systematic study of required building blocks to achieve collectively the desired properties has been missing.</description>
+    </item>
+    
+  </channel>
+</rss>
