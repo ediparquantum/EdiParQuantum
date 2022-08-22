@@ -6875,7 +6875,6 @@ Testimonials Styles
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
   .testimonial blockquote:before, .testimonial blockquote:after {
     font-family: 'FontAwesome';
-    content: "";
     position: absolute;
     font-size: 20px;
     opacity: 0.3;
@@ -6884,7 +6883,6 @@ Testimonials Styles
     top: 35px;
     left: 20px; }
   .testimonial blockquote:after {
-    content: "";
     right: 20px;
     bottom: 35px; }
   .testimonial .author {
