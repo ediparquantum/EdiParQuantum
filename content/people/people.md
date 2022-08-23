@@ -60,7 +60,7 @@ Quantum advantage, Cryptography, Protocol Zoo, device independent cryptography
 
 Quantum Cryptography, Post-Quantum Cryptography, Delegated Blind Quantum Computing, Verification of Quantum Computing, 
 
-### Yao Mao
+### Yao Ma
 
 Quantum Cryptography, Post-Quantum Cryptography, Delegated Blind Quantum Computing, Verification of Quantum Computing, 
 
