@@ -62,8 +62,8 @@ params:
       url: /research/verification
   - title: People
     url: /people/people
-  - title: Partnerships
-    url: /partnerships/partnerships
+  - title: Collaborations
+    url: /collaborations/collaborations
 #  - title: Sign up
 #    url: /
 #    button: true
@@ -92,11 +92,11 @@ params:
       links: 
       - text: Go to people
         url: /people/people
-    - title: Partnerships
+    - title: Collaborations
       icon: users
       links:
-      - text: Go to partnerships
-        url: /partnerships/partnerships
+      - text: Go to Collaborations
+        url: /collaborations/collaborations
     - title: About
       icon: info
       links:
@@ -128,11 +128,11 @@ params:
       icon: publications
       buttonText: Publications
       buttonLink: /publications/publications
-    - title: Partnerships
+    - title: Collaborations
       text: View our collaborations
       icon: partnerships
-      buttonText: Partnerships
-      buttonLink: /partnerships/partnerships
+      buttonText: Collaborations
+      buttonLink: /collaborations/collaborations
   section4:
     title: Research
     subtitle: What are we up to?
@@ -179,11 +179,11 @@ params:
         buttonText: Verification
         buttonLink: /research/verification
   section3:
-    title: Meet our team !
-    subtitle: Collaboration is central to our group.
-    image: old_group.svg
-    buttonText: People
-    buttonLink: /people/people
+    title: High Level Focus
+    subtitle: Four focuses interlaced together. See our complete list of publications. 
+    image: EdiParQuantumSchematic.png  
+    buttonText: Publications
+    buttonLink: /publications/publications
   section5: false
   footer:
     # Logo (from /images/logos/___)
@@ -218,9 +218,9 @@ params:
         - text: Verification
           link: /
       column2:
-        title: "Collaboration"
+        title: "Collaborations"
         links:
-        - text: Partnerships
+        - text: Collaborations
           link: /
       column3:
         title: "About"
