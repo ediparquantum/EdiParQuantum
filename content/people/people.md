@@ -19,121 +19,117 @@ include_footer: true # or false to display the footer
 
 ### Kaushik Chakraborty
 
-Postdoc at the University of Edinburgh, working on hybrid PUFs, QEnclave, Qqantum hardware tokens, QEnclave and PUFs.
+Hybrid PUFs, QEnclave, Qqantum hardware tokens, QEnclave and PUFs.
 
 ### Mina Doosti
 
-Postdoc at University of Maryland, working on hybrid PUF, quantum pseudorandomness, unitary identification & its application to QPUFs.
+Hybrid PUF, quantum pseudorandomness, unitary identification & its application to QPUFs.
 
 ### Ross Grassier
 
-Postdoc at the University of Edinburgh working classification of Lie algebra space-time (super) manifolds, verification of analog quantum devices quantum computer architecture.
+Classification of Lie algebra space-time (super) manifolds, verification of analog quantum devices quantum computer architecture.
 
 ### Jonas Landman
 
-Postdoc at the University of Edinburgh working on quantum neural networks and their applications, unsupervised quantum machine learning and interested in quantum advantage in QML using VQC.
+Quantum neural networks and their applications, unsupervised quantum machine learning and interested in quantum advantage in QML using VQC.
 
 ### Jonathan Miller
 
-Postdoc at the University of Edinburgh working on programming research, algorithm efficiency, analysis and planning, numerical simulations and mathematical modelling, developing quantum-classical hybrid protocols.
+Programming research, algorithm efficiency, analysis and planning, numerical simulations and mathematical modelling, developing quantum-classical hybrid protocols.
 
 ### Debasis Sadhukhan
 
-Postdoc at the University of Edinburgh working on verification protocols on current available quantum devices combining with QEM simulations of many-body systems using near-term quantum algorithms.
+Verification protocols on current available quantum devices combining with QEM simulations of many-body systems using near-term quantum algorithms.
 
 ## PHD STUDENTS
 
 ### Armando Angrisani
 
-PhD student at LIP6, Sorbonne University working on quantum local differential privacy, PAC quantum source coding and limitation of quantum machine learning under the noise disturbance.
+Quantum local differential privacy, PAC quantum source coding and limitation of quantum machine learning under the noise disturbance.
 
 ### Constantine Dalyac
 
-PhD student at LIP6, Sorbonne University recent works on QML with graph kernels for MIS on neutral atom quantum device.
+QML with graph kernels for MIS on neutral atom quantum device.
 
 ### Marine Demarty
 
-PhD student at the University of Edinburgh working on new easy-to-compute bounds on noisy output of variational quantum circuits.
+Development of new easy-to-compute bounds on noisy output of variational quantum circuits.
 
 ### Paul Hermouet
 
-PhD student among LIP6 and ENS working on unclonable cryptography primitives, relations between unclonable encryption and single decryptors and copy protection
+Unclonable cryptography primitives, relations between unclonable encryption and single decryptors and copy protection.
 
 ### Dominik Leichtle
 
-Quantum Cryptography, Post-Quantum Cryptography, Delegated Blind Quantum Computing, Verification of Quantum Computing, 
+Quantum Cryptography, Post-Quantum Cryptography, Delegated Blind Quantum Computing, Verification of Quantum Computing.
 
 ### Yao Ma
 
-PhD student at LIP6, Sorbonne University, working on hybrid PUFs (crypto analysis and simulation), QEnclave, quantum pseudorandomness, learnablility of RC/ quantum cryptography with hardware assumption.
+Hybrid PUFs (crypto analysis and simulation), QEnclave, quantum pseudorandomness, learnablility of RC/ quantum cryptography with hardware assumption.
 
 ### James Mills
 
-PhD student at the University of Edinburgh wokring on stochastic Pauli channels, coherent errors, quantum error mitigation, photon loss and error characterization.
-
+Stochastic Pauli channels, coherent errors, quantum error mitigation, photon loss and error characterization.
 
 ### Léo Monbroussou
 
-PhD student at LIP6, Sorbonne University working on quantum potential speed-up of combinatorial optimization solvers for AUV path planning. Interested in quantum convolutional neural network (QCNN) and ecoding methodologies in QML.
+Quantum potential speed-up of combinatorial optimization solvers for AUV path planning. Interested in quantum convolutional neural network (QCNN) and ecoding methodologies in QML.
 
-### Abbas Poshtvan 
+### Abbas Poshtvan
 
-PhD student at the University of Edinburgh, focusing on theoretical analysis of capacities of the covariant Pauli channel and practical design for (noisy) QPUFs using the pseudo randomness by t-design.
+Theoretical analysis of capacities of the covariant Pauli channel and practical design for (noisy) QPUFs using the pseudo randomness by t-design.
 
 ### Slimane Thabet
 
-PhD student at LIP6, Sorbonne University working on QML with graph data, topology based atomic devices devlopingh Hamiltonian designs.
+QML with graph data, topology based atomic devices devlopingh Hamiltonian designs.
 
 ### Sean Thrasher
 
-PhD student at the University of Edinburgh working on exponential increase of energy level in system Hamiltonian and quantum computation using adiabatic theory
+Exponential increase of energy level in system Hamiltonian and quantum computation using adiabatic theory.
 
 ### Bo Yang
 
-PhD student at LIP6, Sorbonne University working on benchmarking of IBM Quantum devices, efficient quantum readout error mitigation, extension of generalized subspace expansion. Interested in QEM in near-/middle-term era and beyond, quantum error mitigation zoo and quantum programming language design.
+Benchmarking of IBM Quantum devices, efficient quantum readout error mitigation, extension of generalized subspace expansion. Interested in QEM in near-/middle-term era and beyond, quantum error mitigation zoo and quantum programming language design.
 
 ## MASTER AND PROJECT STUDENTS
 
 ### Joe Harris
 
-Masters student studying quantum computing methods and research.
+Quantum computing methods and research.
 
 ### Kasra Masoudi
 
-B4 student at Sharif University of Technology (interhship) interested in quantum computing from a mathematical approach.
+Quantum computing from a mathematical approach.
 
 ### Mohsen Mehrani
 
-Master student at Sharif University of Technology (internship) interested in communication science.
+Communication science.
 
 ### Hela Mhiri
 
-Internship at LIP6, Sorbonne University working on theoretical aspects of QML, quantification of quantum advantage learning methods o quantum experiments.
+Theoretical aspects of QML, quantification of quantum advantage learning methods o quantum experiments.
 
 ### Chirag Wadhwa
 
-B4 student at IIT Roorkee working senior thesis project with a focus on quantum machine learning, simulation of Hybrid PUFs and
-state identification.
+Quantum machine learning, simulation of Hybrid PUFs and state identification.
 
 ## ASSOCIATE MEMBERS
 
 ### Theodoros Kapourniotis (Warwick)
 
-Security, Delegated Computing, Verification
+Security, Delegated Computing, Verification.
 
 ### Michael Oliveira (INL)
 
-PhD student at LIP6, Sorbonne University, working on cost evaluation of boolena functions by non-adaptive MBQC methods, quantum complexity theory and verification.
-
+Cost evaluation of boolena functions by non-adaptive MBQC methods, quantum complexity theory and verification.
 
 ### Harold Ollivier (INRIA)
 
-Research Associate
 Quantum error correcting codes, quantum cryptography and quantum networks.
 
 ### Chinte Liao
 
-Quantum Internet Engineer at VeriQloud focusing on benchmarking of quantum protocols using NetSquid
+Quantum Internet Engineer at VeriQloud focusing on benchmarking of quantum protocols using NetSquid.
 
 ## FORMER MEMBERS AND STUDENTS
 
@@ -172,4 +168,3 @@ Quantum Internet Engineer at VeriQloud focusing on benchmarking of quantum proto
 + Artin Tajdini (Intern)
 + Iskren Vankov (Project student)
 + Petros Wallden (Postdoc)
-
