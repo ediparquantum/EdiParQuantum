@@ -4,7 +4,39 @@ sidebar: true # or false to display the sidebar
 sidebarlogo: atom # From (static/images/logo/)
 include_footer: true # or false to display the footer
 ---
+<div class="notification has-background-primary is-light is-light has-text-grey-darker	">
+  <button class="delete"></button>
+  <p>
+  We are hiring several researchers (junior and senior) at either locations of Edinburgh or Paris to work on 
+  <ul>
+    <li>Quantum Cryptography,</li>
+    <li>Quantum Verification and/or</li>
+    <li>Quantum Machine Learning</li>
+  </ul>
+  in collaboration with key industries in the UK and France 
+    <ul>
+    <li>Rigetti,</li>
+    <li>Riverlane,</li>
+    <li>NPL,</li>
+    <li>VeriQloud and </li>
+    <li>Pasqal.</li>
+  </ul>
+  </p>
+  
+<p>The project will be tailor made depending on the expertise and interest of the candidate as long as it fits to our general mission of finding useful applications for quantum computing and communication.</p>
 
+<p>Interested candidates can get in touch with Prof. Elham Kashefi.
+<ul>
+  <li><a href = "mailto: ekashefi@gmail.com">ekashefi@gmail.com</a></li>
+</ul>
+</p>
+
+<p>A complete job description can be found
+<ul>
+<li><a href="https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/5321/?utm_medium=jobshare">Senior Researcher, University of Edinburgh, School of Informatics</a></li>
+</ul>
+</p>
+</div>
 ### Future Communication
 
 Future information and communication networks will certainly consist of both classical and quantum devices, some of which are expected to be dishonest, with various degrees of functionality, ranging from simple routers to servers executing quantum algorithms. 
