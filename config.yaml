@@ -64,6 +64,8 @@ params:
     url: /people/people
   - title: Collaborations
     url: /collaborations/collaborations
+  - title: Careers
+    url: /careers/careers
 #  - title: Sign up
 #    url: /
 #    button: true
