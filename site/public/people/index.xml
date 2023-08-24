@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>People on Edi-Par Quantum</title>
-    <link>http://something-fresh.org/people/</link>
+    <link>https://www.ediparquantum.com/people/</link>
     <description>Recent content in People on Edi-Par Quantum</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://something-fresh.org/people/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.ediparquantum.com/people/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>People</title>
-      <link>http://something-fresh.org/people/people/</link>
+      <link>https://www.ediparquantum.com/people/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/people/people/</guid>
-      <description>Director Prof. Elham Kashefi Directrice de recherche au CNRS, LIP6 Sorbonne Universite
-Personal Chair in Quantum Computing, School of Informatics University of Edinburgh
-Co-founder VeriQloud Ltd
-Group Leader
-Quantum Cryptography, Hardware Security, Quantum Internet Protocols, Quantum Cloud Computing, Verification of Quantum Technology, Experimental Implementation of Quantum Protocols, Foundation of Quantum Mechanics, Quantum Parallel Computing, New Models for Quantum Computing, Quantum Simulation and Learning POSTDOCTORALS Kaushik Chakraborty Description to come &amp;hellip;</description>
+      <guid>https://www.ediparquantum.com/people/people/</guid>
+      <description>Director Prof. Elham Kashefi Directrice de recherche au CNRS, LIP6 Sorbonne Universite Personal Chair in Quantum Computing, School of Informatics University of Edinburgh Co-founder VeriQloud Ltd Group Leader Focus Quantum Cryptography, Hardware Security, Quantum Internet Protocols, Quantum Cloud Computing, Verification of Quantum Technology, Experimental Implementation of Quantum Protocols, Foundation of Quantum Mechanics, Quantum Parallel Computing, New Models for Quantum Computing, Quantum Simulation and Learning POSTDOCTORALS Kaushik Chakraborty Hybrid PUFs, QEnclave, Qqantum hardware tokens, QEnclave and PUFs.</description>
     </item>
     
   </channel>

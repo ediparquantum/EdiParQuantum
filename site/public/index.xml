@@ -2,46 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Edi-Par Quantum</title>
-    <link>http://something-fresh.org/</link>
+    <link>https://www.ediparquantum.com/</link>
     <description>Recent content on Edi-Par Quantum</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://something-fresh.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.ediparquantum.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://something-fresh.org/about/about/</link>
+      <link>https://www.ediparquantum.com/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/about/about/</guid>
+      <guid>https://www.ediparquantum.com/about/about/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cloud Computing</title>
-      <link>http://something-fresh.org/research/cloud_computing/</link>
+      <title></title>
+      <link>https://www.ediparquantum.com/publications/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/research/cloud_computing/</guid>
+      <guid>https://www.ediparquantum.com/publications/publications/</guid>
+      <description>A unifying framework for differentially private quantum algorithms Abstract Differential privacy is a widely used notion of security that enables the processing of sensitive information. In short, differentially private algorithms map &amp;ldquo;neighbouring&amp;rdquo; inputs to close output distributions. Prior work proposed several quantum extensions of differential privacy, each of them built on substantially different notions of neighbouring quantum states. In this paper, we propose a novel and general definition of neighbouring quantum states.</description>
+    </item>
+    
+    <item>
+      <title>Careers</title>
+      <link>https://www.ediparquantum.com/careers/careers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ediparquantum.com/careers/careers/</guid>
+      <description>Hiring drive We are on the lookout for researchers with expertise in, but not limited to the following areas:
+Quantum Machine Learning (QML) Quantum Algorithms Optimisation Benchmarking Opportunities available Senior researcher (Grade 8 Postdoc) Grade 8, salary range: £45,585 - £54,395 College of Science and Engineering, School of Informatics Fixed-term, Full time (35 hours) Available for 24 months (The duration of the position could be extended upon the successful approval of a grant extension.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing</title>
+      <link>https://www.ediparquantum.com/research/cloud_computing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ediparquantum.com/research/cloud_computing/</guid>
       <description>Increased computation Secure delegated quantum computing allows a computationally weak client to outsource an arbitrary quantum computation to an untrusted quantum server in a privacy-preserving manner.
 Security Schemes We have developed several schemes using quantum communications between client and server to achieve information-theoretic security.
 Post quantum computation Recently we have also shown how the same functionality with a purely classical client can be also obtained but reducing the security to being post-quantum computationally secure.</description>
     </item>
     
     <item>
-      <title>Cyber Security</title>
-      <link>http://something-fresh.org/research/cyber_security/</link>
+      <title>Collaborations</title>
+      <link>https://www.ediparquantum.com/collaborations/collaborations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/research/cyber_security/</guid>
+      <guid>https://www.ediparquantum.com/collaborations/collaborations/</guid>
+      <description>University affiliations Our members are jointly affiliated with:
+the University of Edinburgh Quantum informatics department and the Sorbonne University and French National Center for Scientific Research LIP6 - Quantum Information Team Partner consortiums We are partnered with a number of partner research and industrial consortiums.
+Autonomous quantum technologies Quantum Computing Platform for NISQ Era Commercial Application Open Air Quantum Key Distribution Quantum Computing and Simulation Photonics Quantum Sampling Machine Quantum Internet Alliance Calcul Securisé Multipartite pour Architectures NISQ Quantum Algorithms for Massive Data </description>
+    </item>
+    
+    <item>
+      <title>Cyber Security</title>
+      <link>https://www.ediparquantum.com/research/cyber_security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ediparquantum.com/research/cyber_security/</guid>
       <description>Future Communication Future information and communication networks will certainly consist of both classical and quantum devices, some of which are expected to be dishonest, with various degrees of functionality, ranging from simple routers to servers executing quantum algorithms.
 Foreseeable Futures In a hybrid quantum and classical approach, we consider three plausible scenarios, from the closest to the furthest foreseeable future, and try to study them thoroughly by elaborating adversarial models and designing or analysing concrete protocols with formal security proofs, in order to get ready as soon as one of these scenarios becomes the new reality.</description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>http://something-fresh.org/research/machine_learning/</link>
+      <link>https://www.ediparquantum.com/research/machine_learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/research/machine_learning/</guid>
+      <guid>https://www.ediparquantum.com/research/machine_learning/</guid>
       <description>Near Term The search for an application of near-term quantum devices is widespread.
 Quantum Learning Quantum Machine Learning is touted as a potential utilisation of such devices, particularly those which are out of the reach of the simulation capabilities of classical computers.
 Generative Models We explore generative Quantum Learning that cannot, in the worst case, and up to suitable notions of error, be simulated efficiently by a classical device.
@@ -49,55 +79,29 @@ Applications We also develop specific use cases in Finance, Cryptanalysis, and O
     </item>
     
     <item>
-      <title>Partnerships</title>
-      <link>http://something-fresh.org/partnerships/partnerships/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://something-fresh.org/partnerships/partnerships/</guid>
-      <description>OUR MEMBERS ARE JOINTLY AFFILIATED TO THE FOLLOWING GROUPS University of Edinburgh Quantum Informatics Old College, South Bridge, Edinburgh EH8 9YL, Scotland
-Sorbonne Universite Quantum Information 15-21 rue de l&amp;rsquo;École de Médecine 75006, Paris, France
-WE ARE ALSO PARTNERS IN THE FOLLOWING CONSORTIUMS Innovate UK Industrial Strategy Challenge Fund Autonomous quantum technologies
-Innovate UK Industrial Strategy Challenge Fund Quantum Computing Platform for NISQ Era Commercial Application
-Innovate UK Industrial Strategy Challenge Fund Open Air Quantum Key Distribution</description>
-    </item>
-    
-    <item>
       <title>People</title>
-      <link>http://something-fresh.org/people/people/</link>
+      <link>https://www.ediparquantum.com/people/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/people/people/</guid>
-      <description>Director Prof. Elham Kashefi Directrice de recherche au CNRS, LIP6 Sorbonne Universite
-Personal Chair in Quantum Computing, School of Informatics University of Edinburgh
-Co-founder VeriQloud Ltd
-Group Leader
-Quantum Cryptography, Hardware Security, Quantum Internet Protocols, Quantum Cloud Computing, Verification of Quantum Technology, Experimental Implementation of Quantum Protocols, Foundation of Quantum Mechanics, Quantum Parallel Computing, New Models for Quantum Computing, Quantum Simulation and Learning POSTDOCTORALS Kaushik Chakraborty Description to come &amp;hellip;</description>
+      <guid>https://www.ediparquantum.com/people/people/</guid>
+      <description>Director Prof. Elham Kashefi Directrice de recherche au CNRS, LIP6 Sorbonne Universite Personal Chair in Quantum Computing, School of Informatics University of Edinburgh Co-founder VeriQloud Ltd Group Leader Focus Quantum Cryptography, Hardware Security, Quantum Internet Protocols, Quantum Cloud Computing, Verification of Quantum Technology, Experimental Implementation of Quantum Protocols, Foundation of Quantum Mechanics, Quantum Parallel Computing, New Models for Quantum Computing, Quantum Simulation and Learning POSTDOCTORALS Kaushik Chakraborty Hybrid PUFs, QEnclave, Qqantum hardware tokens, QEnclave and PUFs.</description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>http://something-fresh.org/about/privacy_policy/</link>
+      <link>https://www.ediparquantum.com/about/privacy_policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/about/privacy_policy/</guid>
+      <guid>https://www.ediparquantum.com/about/privacy_policy/</guid>
       <description>Last updated: August 02, 2022 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Free Privacy Policy Generator.</description>
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>http://something-fresh.org/publications/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://something-fresh.org/publications/publications/</guid>
-      <description>A Framework for Verifiable Blind Quantum Computation Abstract With the recent availability of cloud quantum computing services, the question of the verifiability of quantum computations delegated by a weak quantum client to a powerful quantum server is becoming of practical interest. Over the last two decades, Verifiable Blind Quantum Computing (VBQC) has emerged as one of the key approaches to address this challenge. While many protocols have been proposed in recent years, each optimising one aspect of such schemes, a systematic study of required building blocks to achieve collectively the desired properties has been missing.</description>
-    </item>
-    
-    <item>
       <title>Verification</title>
-      <link>http://something-fresh.org/research/verification/</link>
+      <link>https://www.ediparquantum.com/research/verification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/research/verification/</guid>
+      <guid>https://www.ediparquantum.com/research/verification/</guid>
       <description>Solution and Verification Quantum computers promise to efficiently solve not only problems believed to be intractable for classical computers, but also problems for which verifying the solution is also considered intractable.
 How This raises the question of how one can check whether quantum computers are indeed producing correct results.
 Significant Challenge This task, known as quantum verification, has been highlighted as a significant challenge on the road to scalable quantum computing technology.</description>

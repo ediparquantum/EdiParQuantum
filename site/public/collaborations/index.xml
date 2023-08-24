@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collaborations on Edi-Par Quantum</title>
+    <link>https://www.ediparquantum.com/collaborations/</link>
+    <description>Recent content in Collaborations on Edi-Par Quantum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.ediparquantum.com/collaborations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collaborations</title>
+      <link>https://www.ediparquantum.com/collaborations/collaborations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ediparquantum.com/collaborations/collaborations/</guid>
+      <description>University affiliations Our members are jointly affiliated with:
+the University of Edinburgh Quantum informatics department and the Sorbonne University and French National Center for Scientific Research LIP6 - Quantum Information Team Partner consortiums We are partnered with a number of partner research and industrial consortiums.
+Autonomous quantum technologies Quantum Computing Platform for NISQ Era Commercial Application Open Air Quantum Key Distribution Quantum Computing and Simulation Photonics Quantum Sampling Machine Quantum Internet Alliance Calcul Securisé Multipartite pour Architectures NISQ Quantum Algorithms for Massive Data </description>
+    </item>
+    
+  </channel>
+</rss>

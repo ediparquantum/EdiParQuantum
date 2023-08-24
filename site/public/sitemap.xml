@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://something-fresh.org/about/about/</loc>
+    <loc>https://www.ediparquantum.com/about/about/</loc>
   </url><url>
-    <loc>http://something-fresh.org/about/</loc>
+    <loc>https://www.ediparquantum.com/publications/publications/</loc>
   </url><url>
-    <loc>http://something-fresh.org/research/cloud_computing/</loc>
+    <loc>https://www.ediparquantum.com/about/</loc>
   </url><url>
-    <loc>http://something-fresh.org/research/cyber_security/</loc>
+    <loc>https://www.ediparquantum.com/careers/</loc>
   </url><url>
-    <loc>http://something-fresh.org/</loc>
+    <loc>https://www.ediparquantum.com/careers/careers/</loc>
   </url><url>
-    <loc>http://something-fresh.org/research/machine_learning/</loc>
+    <loc>https://www.ediparquantum.com/research/cloud_computing/</loc>
   </url><url>
-    <loc>http://something-fresh.org/partnerships/</loc>
+    <loc>https://www.ediparquantum.com/collaborations/</loc>
   </url><url>
-    <loc>http://something-fresh.org/partnerships/partnerships/</loc>
+    <loc>https://www.ediparquantum.com/collaborations/collaborations/</loc>
   </url><url>
-    <loc>http://something-fresh.org/people/</loc>
+    <loc>https://www.ediparquantum.com/research/cyber_security/</loc>
   </url><url>
-    <loc>http://something-fresh.org/people/people/</loc>
+    <loc>https://www.ediparquantum.com/</loc>
   </url><url>
-    <loc>http://something-fresh.org/about/privacy_policy/</loc>
+    <loc>https://www.ediparquantum.com/research/machine_learning/</loc>
   </url><url>
-    <loc>http://something-fresh.org/publications/</loc>
+    <loc>https://www.ediparquantum.com/people/</loc>
   </url><url>
-    <loc>http://something-fresh.org/publications/publications/</loc>
+    <loc>https://www.ediparquantum.com/people/people/</loc>
   </url><url>
-    <loc>http://something-fresh.org/research/</loc>
+    <loc>https://www.ediparquantum.com/about/privacy_policy/</loc>
   </url><url>
-    <loc>http://something-fresh.org/research/verification/</loc>
+    <loc>https://www.ediparquantum.com/publications/</loc>
+  </url><url>
+    <loc>https://www.ediparquantum.com/research/</loc>
+  </url><url>
+    <loc>https://www.ediparquantum.com/research/verification/</loc>
   </url>
 </urlset>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Researches on Edi-Par Quantum</title>
-    <link>http://something-fresh.org/research/</link>
+    <link>https://www.ediparquantum.com/research/</link>
     <description>Recent content in Researches on Edi-Par Quantum</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://something-fresh.org/research/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.ediparquantum.com/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloud Computing</title>
-      <link>http://something-fresh.org/research/cloud_computing/</link>
+      <link>https://www.ediparquantum.com/research/cloud_computing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/research/cloud_computing/</guid>
+      <guid>https://www.ediparquantum.com/research/cloud_computing/</guid>
       <description>Increased computation Secure delegated quantum computing allows a computationally weak client to outsource an arbitrary quantum computation to an untrusted quantum server in a privacy-preserving manner.
 Security Schemes We have developed several schemes using quantum communications between client and server to achieve information-theoretic security.
 Post quantum computation Recently we have also shown how the same functionality with a purely classical client can be also obtained but reducing the security to being post-quantum computationally secure.</description>
@@ -19,20 +19,20 @@ Post quantum computation Recently we have also shown how the same functionality 
     
     <item>
       <title>Cyber Security</title>
-      <link>http://something-fresh.org/research/cyber_security/</link>
+      <link>https://www.ediparquantum.com/research/cyber_security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/research/cyber_security/</guid>
+      <guid>https://www.ediparquantum.com/research/cyber_security/</guid>
       <description>Future Communication Future information and communication networks will certainly consist of both classical and quantum devices, some of which are expected to be dishonest, with various degrees of functionality, ranging from simple routers to servers executing quantum algorithms.
 Foreseeable Futures In a hybrid quantum and classical approach, we consider three plausible scenarios, from the closest to the furthest foreseeable future, and try to study them thoroughly by elaborating adversarial models and designing or analysing concrete protocols with formal security proofs, in order to get ready as soon as one of these scenarios becomes the new reality.</description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>http://something-fresh.org/research/machine_learning/</link>
+      <link>https://www.ediparquantum.com/research/machine_learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/research/machine_learning/</guid>
+      <guid>https://www.ediparquantum.com/research/machine_learning/</guid>
       <description>Near Term The search for an application of near-term quantum devices is widespread.
 Quantum Learning Quantum Machine Learning is touted as a potential utilisation of such devices, particularly those which are out of the reach of the simulation capabilities of classical computers.
 Generative Models We explore generative Quantum Learning that cannot, in the worst case, and up to suitable notions of error, be simulated efficiently by a classical device.
@@ -41,10 +41,10 @@ Applications We also develop specific use cases in Finance, Cryptanalysis, and O
     
     <item>
       <title>Verification</title>
-      <link>http://something-fresh.org/research/verification/</link>
+      <link>https://www.ediparquantum.com/research/verification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://something-fresh.org/research/verification/</guid>
+      <guid>https://www.ediparquantum.com/research/verification/</guid>
       <description>Solution and Verification Quantum computers promise to efficiently solve not only problems believed to be intractable for classical computers, but also problems for which verifying the solution is also considered intractable.
 How This raises the question of how one can check whether quantum computers are indeed producing correct results.
 Significant Challenge This task, known as quantum verification, has been highlighted as a significant challenge on the road to scalable quantum computing technology.</description>
