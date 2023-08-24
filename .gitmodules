@@ -1,5 +1,5 @@
-[submodule "themes/hugo-universal-theme"]
-	path = themes/hugo-fresh
+[submodule "site/themes/hugo-universal-theme"]
+	path = site/themes/hugo-fresh
 	url = https://github.com/StefMa/hugo-fresh
 [submodule "CallingArXivPublications"]
 	path = CallingArXivPublications
