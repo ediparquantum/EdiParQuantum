@@ -1,3 +1,6 @@
 [submodule "themes/hugo-universal-theme"]
 	path = themes/hugo-fresh
 	url = https://github.com/StefMa/hugo-fresh
+[submodule "CallingArXivPublications"]
+	path = CallingArXivPublications
+	url = git@github.com:fieldofnodes/CallingArXivPublications.git
