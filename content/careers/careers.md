@@ -5,27 +5,55 @@ sidebarlogo: atom # From (static/images/logo/)
 include_footer: true # or false to display the footer
 ---
 
-## Senior Researcher
+## Hiring drive
 
-We are hiring several researchers (junior and senior) at either locations of Edinburgh or Paris to work on
+We are on the lookout for researchers with expertise in, but not limited to the following areas:
 
-* Quantum Cryptography,
-* Quantum Verification and/or
-* Quantum Machine Learning
-  
-in collaboration with key industries in the UK and France 
+* Quantum Machine Learning (QML)
+* Quantum Algorithms
+* Optimisation
+* Benchmarking
 
-* Rigetti,
-* Riverlane,
-* NPL,
-* VeriQloud and
-* Pasqal.
-  
-The project will be tailor made depending on the expertise and interest of the candidate as long as it fits to our general mission of finding useful applications for quantum computing and communication.
+## Opportunities available
 
-Interested candidates can get in touch with Prof. Elham Kashefi.
+### Senior researcher (Grade 8 Postdoc)
 
-* <a href = "mailto: ekashefi@gmail.com">ekashefi@gmail.com</a>
+* Grade 8, salary range: £45,585 - £54,395
+* College of Science and Engineering, School of Informatics
+* Fixed-term, Full time (35 hours)
+* Available for 24 months (The duration of the position could be extended upon the successful approval of a grant extension.)
+* 2 posts available
 
-A complete job description can be found
-* <a href="https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/5321/?utm_medium=jobshare">Senior Researcher, University of Edinburgh, School of Informatics</a>
+#### Learn more about the senior researcher roles
+
+* [Senior researcher job description](https://edin.ac/3sfV1Ce)
+
+### Research associate (Grade 7 Postdoc)
+
+* Grade 7, salary range: £37,099 - £44,263
+* College of Science and Engineering, School of Informatics
+* Full time, 35 hours per week
+* 18 months (with possibility of extension)
+* 2 positions available
+
+#### Learn more about the research associate roles
+
+* [Research associate job description](https://edin.ac/3YCIDIo)
+
+### Research assistant (Grade 6)
+
+* Grade 6, salary range: £31,396 - £36,024
+* College of Science and Engineering, School of Informatics
+* Full time, 35 hours per week (part time would be considered)
+* 1 year (funding ends on 31/03/2026)
+* 1 post available
+
+#### Learn more about the research assistant role
+
+* [Research assistant job description](https://edin.ac/3DSSqk7)
+
+## Contact
+ 
+If interested, email us for further details at:
+
+* *[QuantumSoftwareLab@ed.ac.uk](QuantumSoftwareLab@ed.ac.uk)*

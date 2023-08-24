@@ -6,7 +6,6 @@ googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX
 # Disables warnings
 disableKinds:
 - taxonomy
-- taxonomyTerm
 markup:
   goldmark:
     renderer:
